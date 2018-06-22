@@ -42,7 +42,7 @@ gulp.task('copy:Fonts', () => gulp.src([`${dirs.src}/font/*`])
 gulp.task('copy:CSS', () => gulp.src([styleDirs.bootstrap])
   .pipe(gulp.dest(`${styleDirs.dest}`)));
 
-gulp.task('styles', ['copy:CSS'], errorHandler => gulp.src(styleDirs.src)
+gulp.task('styles', errorHandler => gulp.src(styleDirs.src)
   .pipe(sass({
     sourceComments: 'normal',
   }).on('error', errorHandler))

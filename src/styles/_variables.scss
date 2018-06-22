@@ -1,8 +1,11 @@
-$color-gold: #a77f38;
-$color-gold--transparent: transparentize($color-gold, .5);
-$color-orange: #ffa500;
-$color-orange--transparent: transparentize($color-orange, .925);
+$color-secondary: #9FB6CD;
+$color-secondary--transparent: transparentize($color-secondary, .5);
+$color-primary: #708090;
+$color-primary--transparent: transparentize($color-primary, .925);
 $color-white: #fff;
+
+$color-weather-icon:red;
+$color-input-text: #708090;
 
 $screen-xxs: 396px;
 $screen-xs: 480px;

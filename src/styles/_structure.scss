@@ -1,5 +1,5 @@
 .top {
-  background: $color-gold;
+  background: $color-secondary;
   display: inline-block;
   height: 10vh;
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 .left {
-  background: $color-orange;
+  background: $color-primary;
   color: $color-white;
   text-align: center;
 
@@ -17,8 +17,8 @@
 }
 
 .right {
-  background: $color-orange--transparent;
-  color: $color-orange;
+  background: $color-primary--transparent;
+  color: $color-primary;
   overflow-y: scroll;
 }
 

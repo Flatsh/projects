@@ -28,7 +28,7 @@ $wi-font-family:                 weathericons !default;
 
 .#{$wi-css-prefix}-fw {
   width: 1.4rem;
-  text-align: center;
+  text-align: left;
 }
 
 @mixin wi-icon-rotate($degrees, $rotation) {

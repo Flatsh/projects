@@ -1,1 +1,22 @@
-//TODO: Implementieren
+.heading-container {
+    border-bottom: 3px solid;
+    margin-bottom: 1rem;
+    padding: 5px;
+    text-align: center;
+    .wi {
+        margin-left: 0.5rem;
+    }
+}
+
+.heading-city {
+    color: $color-secondary;
+    font-weight: bold;
+    margin-top: 0;
+    opacity: .75; //transparenz
+    text-transform: uppercase;
+}
+
+.heading-condition-name {
+    font-style: italic; //kursiv
+}
+
